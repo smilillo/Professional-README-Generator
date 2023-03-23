@@ -8,46 +8,46 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 const questions = [{
     type: "input",
     message: "What is the title of this project?",
-    name: "Title"
+    name: "title"
 }, {
     type: "input",
     message: "What is this project about? Please provide a detailed desription.",
-    name: "Description"
+    name: "description"
 },
 {
     type: "input",
     message: "Table of Contents",
-    name: "Table of Contents"
+    name: "toc"
 },
 {
     type: "input",
     message: "What steps are required to install this project?",
-    name: "Installation"
+    name: "installation"
 },
 {
     type: "input",
     message: "Provide instructions for how to use this project.",
-    name: "Usage"
+    name: "usage"
 },
 {
     type: "input",
     message: "Provide a link to the deplyed project webpage here.",
-    name: "Deployed Webpage"
+    name: "deployed"
 },
 {
     type: "input",
     message: "Attach any necessary screenshots here.",
-    name: "Screenshot"
+    name: "screenshot"
 },
 {
     type: "input",
     message: "List the names and profiles of any project collaborators.",
-    name: "Credits"
+    name: "credits"
 },
 {
     type: "input",
     message: "Enter the license used for this project.",
-    name: "License"
+    name: "license"
 },
 ];
 
