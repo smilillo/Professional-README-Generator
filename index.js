@@ -6,11 +6,13 @@ const fileName = 'README.md';
 
 
 // TODO: Create an array of questions for user input
-const questions = [{
+const questions = [
+{
     type: "input",
     message: "What is the title of this project?",
     name: "title"
-}, {
+}, 
+{
     type: "input",
     message: "What is this project about? Please provide a detailed desription.",
     name: "description"
