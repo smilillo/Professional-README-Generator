@@ -2,9 +2,9 @@
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
+
+
 // TODO: Create an array of questions for user input
-// inquirer
-//     .prompt 
 const questions = [{
     type: "input",
     message: "What is the title of this project?",
@@ -55,7 +55,10 @@ const questions = [{
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+    .then(answers =>)
+}
 
 // Function call to initialize app
 init();
