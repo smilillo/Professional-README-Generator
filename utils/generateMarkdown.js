@@ -33,6 +33,7 @@ function generateMarkdown(data) {
 
   ## Project Description 
   ${data.description}
+  
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -52,7 +53,7 @@ function generateMarkdown(data) {
   ${data.credits} 
   
   ## License
-  ${data.license}
+  This project is licensed under the ${data.license} license.
   ${renderLicenseSection(data.license)}
 `;
 }

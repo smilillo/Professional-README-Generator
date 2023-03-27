@@ -1,7 +1,8 @@
 # README-Generator
 
   ## Project Description 
-  This project is a node driven readme generator. All data is entered into the terminal in response to the current question displayed. Once all data has been entered, a README.md file is resturned to the user.
+  This project is a node driven readme generator. All data is entered into the terminal in response to the current question displayed. Once all data has been entered, a README.md file is returned to the user.
+  
   ## Table of Contents
 - [README-Generator](#readme-generator)
   - [Project Description](#project-description)
@@ -13,7 +14,7 @@
   - [License](#license)
 
   ## Installation
-  To install this project, node.js, npm, fs, and inquirer are all required.
+  This project requires node.js, inquirer, and fs.
 
   ## Usage 
   To use this readme generator, the user must open the project in the terminal by calling node index.js. Once the program has begun, the user will input answers to each question as prompted in the terminal.
@@ -22,9 +23,9 @@
   https://github.com/smilillo/README-Generator
 
   ## Credits
-   
+  N/A 
   
   ## License
-  MIT
+  This project is licensed under the MIT license.
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
     (https://img.shields.io/badge/license-MIT-blue.svg)
