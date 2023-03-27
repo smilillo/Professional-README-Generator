@@ -3,12 +3,16 @@
   ## Project Description 
   This project is a node driven readme generator. All data is entered into the terminal in response to the current question displayed. Once all data has been entered, a README.md file is resturned to the user.
   ## Table of Contents
+- [README-Generator](#readme-generator)
+  - [Project Description](#project-description)
+  - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
+    - [Live Website URL:](#live-website-url)
   - [Credits](#credits)
   - [License](#license)
 
-  ##Installation
+  ## Installation
   To install this project, node.js, npm, fs, and inquirer are all required.
 
   ## Usage 

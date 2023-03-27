@@ -39,7 +39,7 @@ function generateMarkdown(data) {
   - [Credits](#credits)
   - [License](#license)
 
-  ##Installation
+  ## Installation
   ${data.installation}
 
   ## Usage 
