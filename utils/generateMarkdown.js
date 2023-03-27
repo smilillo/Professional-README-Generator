@@ -38,14 +38,19 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
+
   ##Installation
   ${data.installation}
+
   ## Usage 
   ${data.usage}
+
   ### Live Website URL:
   ${data.deployed}
+
   ## Credits
   ${data.credits} 
+  
   ## License
   ${data.license}
   ${renderLicenseSection(data.license)}
