@@ -34,7 +34,7 @@ const questions = [
 },
 {
     type: "input",
-    message: "Provide a link to the deplyed project webpage here.",
+    message: "Provide a link to the deployed project webpage or repository here.",
     name: "deployed"
 },
 {

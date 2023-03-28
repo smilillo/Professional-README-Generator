@@ -1,6 +1,7 @@
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+// Code provided in Slack group message by instructor.
 function renderLicenseBadge(license) {
   if (license !== 'None') {
     return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
@@ -51,7 +52,7 @@ function generateMarkdown(data) {
   ## Usage 
   ${data.usage}
 
-  ### Live Website URL:
+  ### GitHub URL:
   ${data.deployed}
 
   ## Tests
