@@ -19,7 +19,7 @@
   ## Usage 
   To use this readme generator, the user must open the project in the terminal by calling node index.js. Once the program has begun, the user will input answers to each question as prompted in the terminal followed by the enter key. The completed README.md file will be created in the project folder once all answers have been submitted.
 
-  ### Live Website URL:
+  ### GitHub URL:
   https://github.com/smilillo/README-Generator
 
   ## Tests
