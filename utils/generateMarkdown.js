@@ -31,6 +31,8 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ${renderLicenseSection(data.license)}
+
   ## Project Description 
   ${data.description}
   
@@ -39,6 +41,7 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
+  - [Questions](#questions)
 
   ## Installation
   ${data.installation}
@@ -54,7 +57,9 @@ function generateMarkdown(data) {
   
   ## License
   This project is licensed under the ${data.license} license.
-  ${renderLicenseSection(data.license)}
+ 
+  ## Questions
+  If you have any questions, please contact ${data.email}.
 `;
 }
 

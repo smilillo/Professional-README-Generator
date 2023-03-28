@@ -47,6 +47,11 @@ const questions = [
     message: "Enter the license used for this project.",
     name: "license"
 },
+{
+    type: "input",
+    message: "Please enter your email address.",
+    name: "email"
+},
 ];
 
 // TODO: Create a function to write README file
