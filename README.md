@@ -17,10 +17,13 @@
   This project requires node.js, npm, inquirer, and fs.
 
   ## Usage 
-  To use this readme generator, the user must open the project in the terminal by calling node index.js. Once the program has begun, the user will input answers to each question as prompted in the terminal followed by the enter key. The completed README.md file will be created in the project folder once all answers have been submitted.
+  To use this readme generator, the user must open the project in the terminal by calling node index.js. Once the program has begun, the user will input answers to each question as prompted in the terminal, followed by the enter key. The completed README.md file will be created in the project folder once all answers have been submitted.
 
   ### GitHub URL:
   https://github.com/smilillo/README-Generator
+
+  ### Video Walkthrough Link:
+ [Link to video on Google Drive](https://drive.google.com/file/d/1NfslMyMWshTqCAXAHmfZ4YXha__noqWd/view)
 
   ## Tests
   To test this project, enter node index.js in the terminal.
