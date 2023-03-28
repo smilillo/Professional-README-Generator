@@ -39,8 +39,13 @@ const questions = [
 },
 {
     type: "input",
+    message: "Provide any test instructions for the program.",
+    name: "tests"
+},
+{
+    type: "input",
     message: "List the names and profiles of any project collaborators.",
-    name: "credits"
+    name: "contributing"
 },
 {
     type: "input",
@@ -51,6 +56,11 @@ const questions = [
     type: "input",
     message: "Please enter your email address.",
     name: "email"
+},
+{
+    type: "input",
+    message: "Please enter your GitHub username.",
+    name: "username"
 },
 ];
 
