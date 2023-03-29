@@ -23,7 +23,7 @@
   https://github.com/smilillo/README-Generator
 
   ### Video Walkthrough Link:
- [Link to video on Google Drive](https://drive.google.com/file/d/1NfslMyMWshTqCAXAHmfZ4YXha__noqWd/view)
+ [Link to video on Google Drive](https://drive.google.com/file/d/1hiX03BsYfFjAmvNzexi8cLcKmpZGeae4/view)
 
   ## Tests
   To test this project, enter node index.js in the terminal.
